@@ -1,0 +1,42 @@
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    width: 30%;
+    margin: 0px 10px 0px 10px;
+    background-color: #dddddd;
+}
+
+#title{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    background-color: #ff0000;
+}
+
+.sidebar ul{
+    margin: 10px;
+    padding: 0px;
+    background-color: #ff0000;
+}
+
+.sidebar li{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffaaaa;
+}
+
+.content{
+    width: 70%;
+    margin: 0px 10px 0px 10px;
+    background-color: #00ff00;
+}
+
+h1{
+    text-align: center;
+    margin: 0px;
+}
